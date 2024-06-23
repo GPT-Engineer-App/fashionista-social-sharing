@@ -8,6 +8,8 @@ import ARFashionShow from "./components/ARFashionShow.jsx";
 import PersonalizedSuggestions from "./components/PersonalizedSuggestions.jsx";
 import FeaturedContent from "./components/FeaturedContent.jsx";
 import CollaborationFacilitation from "./components/CollaborationFacilitation.jsx";
+import MonetizationOptions from "./components/MonetizationOptions.jsx";
+import CommissionSystem from "./components/CommissionSystem.jsx";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route exact path="/personalized-suggestions" element={<PersonalizedSuggestions />} />
         <Route exact path="/featured-content" element={<FeaturedContent />} />
         <Route exact path="/collaboration-facilitation" element={<CollaborationFacilitation />} />
+        <Route exact path="/monetization-options" element={<MonetizationOptions />} />
+        <Route exact path="/commission-system" element={<CommissionSystem />} />
       </Routes>
     </Router>
   );
