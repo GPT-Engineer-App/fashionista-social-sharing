@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, VStack, Image, Button } from '@chakra-ui/react';
+import { Box, Text, VStack, Image } from '@chakra-ui/react';
 
 const inspirations = [
   { id: 1, name: 'Fashionista A', image: '/images/inspiration1.jpg', description: 'Chic summer look.' },
