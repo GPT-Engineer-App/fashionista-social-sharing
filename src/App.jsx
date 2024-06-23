@@ -15,6 +15,9 @@ import CollaborationUpload from "./components/CollaborationUpload.jsx";
 import Marketplace from "./pages/Marketplace.jsx";
 import SellerTools from "./components/SellerTools.jsx";
 import ItemDetails from "./pages/ItemDetails.jsx";
+import InspirationFeed from "./components/InspirationFeed.jsx";
+import VirtualCloset from "./components/VirtualCloset.jsx";
+import StylingTipsAndPurchases from "./components/StylingTipsAndPurchases.jsx";
 
 function App() {
   return (
@@ -36,6 +39,9 @@ function App() {
         <Route exact path="/marketplace" element={<Marketplace />} />
         <Route exact path="/seller-tools" element={<SellerTools />} />
         <Route exact path="/item/:id" element={<ItemDetails />} />
+        <Route exact path="/inspiration-feed" element={<InspirationFeed />} />
+        <Route exact path="/virtual-closet" element={<VirtualCloset />} />
+        <Route exact path="/styling-tips-and-purchases" element={<StylingTipsAndPurchases />} />
       </Routes>
     </Router>
   );
