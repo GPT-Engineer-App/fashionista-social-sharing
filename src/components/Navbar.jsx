@@ -25,6 +25,15 @@ const Navbar = () => {
           <Link as={NavLink} to="/ar-fashion-show" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
             AR Fashion Show
           </Link>
+          <Link as={NavLink} to="/personalized-suggestions" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Personalized Suggestions
+          </Link>
+          <Link as={NavLink} to="/featured-content" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Featured Content
+          </Link>
+          <Link as={NavLink} to="/collaboration-facilitation" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Collaboration Facilitation
+          </Link>
         </Flex>
       </Flex>
     </Box>
