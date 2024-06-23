@@ -46,6 +46,15 @@ const Navbar = () => {
           <Link as={NavLink} to="/collaboration-upload" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
             Collaboration Upload
           </Link>
+          <Link as={NavLink} to="/inspiration-feed" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Inspiration Feed
+          </Link>
+          <Link as={NavLink} to="/virtual-closet" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Virtual Closet
+          </Link>
+          <Link as={NavLink} to="/styling-tips-and-purchases" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Styling Tips and Purchases
+          </Link>
         </Flex>
       </Flex>
     </Box>
