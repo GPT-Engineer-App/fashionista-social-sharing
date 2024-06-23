@@ -19,6 +19,12 @@ const Navbar = () => {
           <Link as={NavLink} to="/contact" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
             Contact
           </Link>
+          <Link as={NavLink} to="/virtual-try-on" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Virtual Try-On
+          </Link>
+          <Link as={NavLink} to="/ar-fashion-shows" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            AR Fashion Shows
+          </Link>
         </Flex>
       </Flex>
     </Box>
