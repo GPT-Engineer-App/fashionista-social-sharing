@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Box, Text, VStack } from "@chakra-ui/react";
 import * as THREE from 'three';
-import 'ar.js';
+import THREEx from 'ar.js/threex';
 
 const VirtualTryOn = () => {
   useEffect(() => {
