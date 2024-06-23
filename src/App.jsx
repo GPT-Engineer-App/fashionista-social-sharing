@@ -12,6 +12,9 @@ import MonetizationOptions from "./components/MonetizationOptions.jsx";
 import CommissionSystem from "./components/CommissionSystem.jsx";
 import AIEditingTools from "./components/AIEditingTools.jsx";
 import CollaborationUpload from "./components/CollaborationUpload.jsx";
+import Marketplace from "./pages/Marketplace.jsx";
+import SellerTools from "./components/SellerTools.jsx";
+import ItemDetails from "./pages/ItemDetails.jsx";
 
 function App() {
   return (
@@ -28,8 +31,11 @@ function App() {
         <Route exact path="/collaboration-facilitation" element={<CollaborationFacilitation />} />
         <Route exact path="/monetization-options" element={<MonetizationOptions />} />
         <Route exact path="/commission-system" element={<CommissionSystem />} />
-      <Route exact path="/ai-editing-tools" element={<AIEditingTools />} />
+        <Route exact path="/ai-editing-tools" element={<AIEditingTools />} />
         <Route exact path="/collaboration-upload" element={<CollaborationUpload />} />
+        <Route exact path="/marketplace" element={<Marketplace />} />
+        <Route exact path="/seller-tools" element={<SellerTools />} />
+        <Route exact path="/item/:id" element={<ItemDetails />} />
       </Routes>
     </Router>
   );
