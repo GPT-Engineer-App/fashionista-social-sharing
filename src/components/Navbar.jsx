@@ -40,6 +40,12 @@ const Navbar = () => {
           <Link as={NavLink} to="/commission-system" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
             Commission System
           </Link>
+          <Link as={NavLink} to="/ai-editing-tools" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            AI Editing Tools
+          </Link>
+          <Link as={NavLink} to="/collaboration-upload" p={2} color="white" _hover={{ textDecoration: "none", color: "brand.300" }}>
+            Collaboration Upload
+          </Link>
         </Flex>
       </Flex>
     </Box>

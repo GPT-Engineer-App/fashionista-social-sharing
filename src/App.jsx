@@ -10,6 +10,8 @@ import FeaturedContent from "./components/FeaturedContent.jsx";
 import CollaborationFacilitation from "./components/CollaborationFacilitation.jsx";
 import MonetizationOptions from "./components/MonetizationOptions.jsx";
 import CommissionSystem from "./components/CommissionSystem.jsx";
+import AIEditingTools from "./components/AIEditingTools.jsx";
+import CollaborationUpload from "./components/CollaborationUpload.jsx";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route exact path="/collaboration-facilitation" element={<CollaborationFacilitation />} />
         <Route exact path="/monetization-options" element={<MonetizationOptions />} />
         <Route exact path="/commission-system" element={<CommissionSystem />} />
+      <Route exact path="/ai-editing-tools" element={<AIEditingTools />} />
+        <Route exact path="/collaboration-upload" element={<CollaborationUpload />} />
       </Routes>
     </Router>
   );
